@@ -8,7 +8,10 @@ const nextConfig = {
     swcMinify: true,            // Enable SWC minification for improved performance
     compiler: {
         removeConsole: process.env.NODE_ENV !== "development"     // Remove console.log in production
-    }
+    },
+    images: {    // we only left this out if we do capacitor
+		unoptimized: true
+	}
 };
 
 export default withPWA({
