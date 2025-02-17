@@ -44,3 +44,21 @@ next-env.d.ts
 # Auto Generated PWA files
 **/public/sw.js
 **/public/workbox-*.js
+
+
+# Bubblewrap build directories
+/build/
+/node_modules/
+/.keystore/
+.bwconfig.json
+
+# Java and Gradle files
+app/build/
+*.apk
+*.aab
+*.jks
+*.keystore
+*.log
+.gradle/
+.local/
+
